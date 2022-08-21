@@ -10,7 +10,7 @@ A=$($H | sed 's/[Add_Peer_Pub_Key]=[[:space:]]//')
 # subtract last handshake time from current time
 COUNT=$(echo "$T - $A"|bc)
 # compare seconds since last handshake. The WG handshake is every 2 min.
-if [[ $COUNT -ge 120 ]];
+if [[ $COUNT -gt 120 ]];
 
 then
 # send an email. Use value from alert.txt for message body
