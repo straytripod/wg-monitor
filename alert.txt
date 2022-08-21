@@ -2,6 +2,6 @@ from: NMS
 subject: WireGuard tunnel
 
 The last handshake with our peer happen more then 2 Minutes ago.
-Can you please check on our peer as she may be lost.
+Can you please check on our peer, as she may be lost?
 
 Your friend the network monitoring serivce.
